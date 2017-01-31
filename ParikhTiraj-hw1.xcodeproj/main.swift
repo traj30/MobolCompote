@@ -21,9 +21,12 @@ func main() {
     
     for index in 0 ..< 10 {
         al.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
-    
+        a2.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
+        a3.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
     }
     
+    
+    print(“\(make) \(model) won!!")
     
 
     
