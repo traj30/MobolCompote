@@ -42,23 +42,18 @@ class Automobile {
         return Automobile(_make: _make, _model: _model, _numberOfDoors: _numberOfDoors, _speed: _speed)
     }
     
-    func randomValueBetween(min:UInt32, max:UInt32) -> UInt32 {
-        let randomValue:UInt32 = min + arc4random_uniform(UInt32(max - min + 1))
-        return randomValue
+    func increaseSpeed(speedChange:UInt32) -> Int {
+        speed += speedChange
+        if (speed >= 150){ speed = 150 }
+        else if (speed <= 0){ speed = 0 }
+        return speed
     }
     
-    func increaseSpeed(speedChange:Int) -> Int {
-        speedChange += randomValueBetween(min: 0, max:150)
-        if (speedChange >= 150){ return 150 }
-        else if (speedChange <= 0){ return 0 }
-        else { return speedChange }
-    }
-    
-    func decreaseSpeed(speedChange:Int) -> Int {
-        speedChange += randomValueBetween(min: 0, max:150)
-        if (speedChange >= 150){ return 150 }
-        else if (speedChange <= 0){ return 0 }
-        else { return speedChange }
+    func dereaseSpeed(speedChange:UInt32) -> Int {
+        speed += speedChange
+        if (speed >= 150){ speed = 150 }
+        else if (speed <= 0){ speed = 0 }
+        return speed
     }
     
     func description() -> String {
