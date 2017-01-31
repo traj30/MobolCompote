@@ -16,7 +16,7 @@ func main() {
     
     func randomValueBetween(min:UInt32, max:UInt32) -> UInt32 {
         let randomValue:UInt32 = min + arc4random_uniform(UInt32(max - min + 1))
-        return randomValue
+        return randomValueswift
     }
     
     for index in 0 ..< 10 {
@@ -24,6 +24,8 @@ func main() {
         a2.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
         a3.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
     }
+    
+    
     
     if(
     print(“\(make) \(model) won!!")
