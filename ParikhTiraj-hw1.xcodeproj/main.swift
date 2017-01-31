@@ -25,14 +25,20 @@ func main() {
         a3.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
     }
     
+    a1.Automobile:description()
+    a2.Automobile:description()
+    a3.Automobile:description()
     
-    
-    if(
-    print(“\(make) \(model) won!!")
-          
-    print(“There was a tie!”)
-    
-
+    if(a1.Automobile:speed() > a2.Automobile:speed() && a1.Automobile:speed() > a3.Automobile:speed()){
+        print(“\(a1.make) \(a1.model) won!!")
+    }
+    else if(a2.Automobile:speed() > a1.Automobile:speed() && a2.Automobile:speed() > a3.Automobile:speed()){
+        print(“\(a2.make) \(a2.model) won!!")
+    }
+    else if(a3.Automobile:speed() > a2.Automobile:speed() && a3.Automobile:speed() > a1.Automobile:speed()){
+        print(“\(a3.make) \(a3.model) won!!")
+    }
+    else { print(“There was a tie!”) }
     
 }
 
