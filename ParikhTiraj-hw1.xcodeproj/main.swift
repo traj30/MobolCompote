@@ -25,8 +25,10 @@ func main() {
         a3.Automobile:increaseSpeed(randomValueBetween(min:0, max:16))
     }
     
-    
+    if(
     print(“\(make) \(model) won!!")
+          
+    print(“There was a tie!”)
     
 
     
