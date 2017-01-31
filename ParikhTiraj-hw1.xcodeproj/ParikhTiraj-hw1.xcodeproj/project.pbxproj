@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4352FA1E3FFDA5008FC43C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4352F91E3FFDA5008FC43C /* main.swift */; };
+		ED4353011E3FFE0C008FC43C /* Automobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4353001E3FFE0C008FC43C /* Automobile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED4352F41E3FFDA5008FC43C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED4352F61E3FFDA5008FC43C /* ParikhTiraj-hw1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ParikhTiraj-hw1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4352F91E3FFDA5008FC43C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED4353001E3FFE0C008FC43C /* Automobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Automobile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4352F31E3FFDA5008FC43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED4352ED1E3FFDA5008FC43C = {
+			isa = PBXGroup;
+			children = (
+				ED4352F81E3FFDA5008FC43C /* ParikhTiraj-hw1 */,
+				ED4352F71E3FFDA5008FC43C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4352F71E3FFDA5008FC43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4352F61E3FFDA5008FC43C /* ParikhTiraj-hw1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4352F81E3FFDA5008FC43C /* ParikhTiraj-hw1 */ = {
+			isa = PBXGroup;
+			children = (
+				ED4352F91E3FFDA5008FC43C /* main.swift */,
+				ED4353001E3FFE0C008FC43C /* Automobile.swift */,
+			);
+			path = "ParikhTiraj-hw1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4352F51E3FFDA5008FC43C /* ParikhTiraj-hw1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4352FD1E3FFDA5008FC43C /* Build configuration list for PBXNativeTarget "ParikhTiraj-hw1" */;
+			buildPhases = (
+				ED4352F21E3FFDA5008FC43C /* Sources */,
+				ED4352F31E3FFDA5008FC43C /* Frameworks */,
+				ED4352F41E3FFDA5008FC43C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParikhTiraj-hw1";
+			productName = "ParikhTiraj-hw1";
+			productReference = ED4352F61E3FFDA5008FC43C /* ParikhTiraj-hw1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4352EE1E3FFDA5008FC43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Parikh, Tiraj R";
+				TargetAttributes = {
+					ED4352F51E3FFDA5008FC43C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ED4352F11E3FFDA5008FC43C /* Build configuration list for PBXProject "ParikhTiraj-hw1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED4352ED1E3FFDA5008FC43C;
+			productRefGroup = ED4352F71E3FFDA5008FC43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4352F51E3FFDA5008FC43C /* ParikhTiraj-hw1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4352F21E3FFDA5008FC43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4353011E3FFE0C008FC43C /* Automobile.swift in Sources */,
+				ED4352FA1E3FFDA5008FC43C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED4352FB1E3FFDA5008FC43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4352FC1E3FFDA5008FC43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED4352FE1E3FFDA5008FC43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED4352FF1E3FFDA5008FC43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4352F11E3FFDA5008FC43C /* Build configuration list for PBXProject "ParikhTiraj-hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4352FB1E3FFDA5008FC43C /* Debug */,
+				ED4352FC1E3FFDA5008FC43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4352FD1E3FFDA5008FC43C /* Build configuration list for PBXNativeTarget "ParikhTiraj-hw1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4352FE1E3FFDA5008FC43C /* Debug */,
+				ED4352FF1E3FFDA5008FC43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4352EE1E3FFDA5008FC43C /* Project object */;
+}
